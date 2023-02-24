@@ -7,6 +7,8 @@ ps：写的很烂，缝缝补补。小白一个。
 ### 使用教程
 下载并解压
 
+进入文件目录
+
 因为vpsvc需要登陆才能查看库存，所以需要填入ck才能运行ck获取方法：
 
 登陆完成按F12，选择'网络'。刷新页面，随便选择一个请求
@@ -19,3 +21,25 @@ ps：写的很烂，缝缝补补。小白一个。
 
 ps：vpsvc的ck有效期很短，我没有能力绕过or自动获取，欢迎有能力的大佬修改！！！
 
+在bot.js中填入自己的TG API
+
+安装python
+
+```shell
+apt-get upgrade -y # CentOS：yum update -y
+apt install -y python3 python3-pip # CentOS: yun install -y python3 python3-pip
+pip3 install -r requirements.txt
+```
+
+安装nodejs
+
+```shell
+apt install -y nodejs npm # CentOS：yum install -y nodejs npm
+npm install node-telegram-bot-api
+```
+
+运行
+
+```shell
+node bot.js
+```
