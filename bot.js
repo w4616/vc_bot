@@ -12,7 +12,7 @@ const bot = new TelegramBot('YOU TGBOT ID', { polling: true });
 // 处理 /start 命令
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
-  bot.sendMessage(chatId, '欢迎使用vc库存bot，此bot为bata版本，如果不能使用请见谅！\n发送 /help 查看帮助');
+  bot.sendMessage(chatId, '欢迎使用vc库存bot，此bot为bata版本，如果不能使用请见谅！\n发送 /help 查看帮助 \n本程序已开源https://github.com/w4616/vc_bot/');
 });
 
 // 处理 /help 命令
@@ -24,7 +24,7 @@ bot.onText(/\/help/, (msg) => {
 // 处理 /ping 命令
 bot.onText(/\/ping/, (msg) => {
   const chatId = msg.chat.id;
-  bot.sendMessage(chatId, 'pong');
+  bot.sendMessage(chatId, 'pong~~~~~');
 });
 
 // 处理 /vc 命令
@@ -33,7 +33,7 @@ bot.onText(/\/vc/, (msg) => {
   exec('python3 c1.py', (err, stdout, stderr) => {
     if (err) {
       console.error(err);
-      bot.sendMessage(chatId, '运行出错，请检查日志');
+      bot.sendMessage(chatId, '运行出错，请联系管理员');
       return;
     }
     bot.sendMessage(chatId, stdout);
@@ -46,7 +46,7 @@ bot.onText(/\/x/, (msg) => {
   exec('python3 x1.py', (err, stdout, stderr) => {
     if (err) {
       console.error(err);
-      bot.sendMessage(chatId, '运行出错，请检查日志');
+      bot.sendMessage(chatId, '运行出错，请联系管理员');
       return;
     }
     bot.sendMessage(chatId, stdout);
