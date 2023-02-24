@@ -7,7 +7,7 @@ const configData = fs.readFileSync('config.py', 'utf8');
 let ck = configData.match(/ck\s*=\s*['"]([^'"]*)['"]/)[1];
 
 // 创建 bot 实例并连接到 Telegram API
-const bot = new TelegramBot('6073137140:AAGmOYFmP_2uoz37c4R0QXYOQ40_o30gfjo', { polling: true });
+const bot = new TelegramBot('YOU TGBOT ID', { polling: true });
 
 // 处理 /start 命令
 bot.onText(/\/start/, (msg) => {
