@@ -18,7 +18,7 @@ bot.onText(/\/start/, (msg) => {
 // 处理 /help 命令
 bot.onText(/\/help/, (msg) => {
   const chatId = msg.chat.id;
-  bot.sendMessage(chatId, '/vc 库存\n/x 系统（用于检测ck是否存活，如果有回复即存活）\n/ping 检测是否存货\n/ck 提交ck（未写）\n/help 帮助');
+  bot.sendMessage(chatId, '/vc 库存\n/x 系统没什么实际作用\n/ping 检测是否存货\n/ck 提交ck（未写）\n/help 帮助');
 });
 
 // 处理 /ping 命令
