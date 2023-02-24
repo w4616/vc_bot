@@ -55,12 +55,11 @@ html1 = re.sub(pattern, '', location_select)
 pattern = r'<option value="(\d+)">([^<]+)</option>'
 matches = re.findall(pattern, html1)
 
-#如果有库存则打印，无库存则打印"无"
-#暂时没有加ck失效判断，如果能写出来会加
-
+#ck失效判断
 if 'None' in html1:
     print('ck失效')
 else:
+    #如果有库存则打印，无库存则打印"暂时无可用机器"
     if matches:
         for match in matches:
             print(f"{match[0]}:{match[1]}")
