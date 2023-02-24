@@ -13,9 +13,9 @@ ps：写的很烂，缝缝补补。小白一个。
 
 ![image](https://raw.githubusercontent.com/w4616/freevpsvc/main/image/ck1.png)
 
-请求头的 Cookie: PHPSESSID=******************* 将PHPSESSID填入运行即可
+请求头的 Cookie: PHPSESSID=******************* 将PHPSESSID填入config.py
 
 ![image](https://raw.githubusercontent.com/w4616/freevpsvc/main/image/ck2.png)
 
-vpsvc的ck有效期很短，我没有能力绕过or自动获取，欢迎有能力的大佬修改！！！
+ps：vpsvc的ck有效期很短，我没有能力绕过or自动获取，欢迎有能力的大佬修改！！！
 
