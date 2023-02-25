@@ -15,7 +15,7 @@ ps：写的很烂，缝缝补补。小白一个。
 
 ![image](https://raw.githubusercontent.com/w4616/freevpsvc/main/image/ck1.png)
 
-请求头的 Cookie: PHPSESSID=******************* 将PHPSESSID填入config.py
+请求头的 Cookie: PHPSESSID=******************* 将PHPSESSID填入config.py，后续也可以在tg中提交ck
 
 ![image](https://raw.githubusercontent.com/w4616/freevpsvc/main/image/ck2.png)
 
