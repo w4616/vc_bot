@@ -21,7 +21,7 @@ ps：写的很烂，缝缝补补。小白一个。
 
 ps：vpsvc的ck有效期很短，我没有能力绕过or自动获取，欢迎有能力的大佬修改！！！
 
-在bot.js中填入自己的TG API
+在bot.js中第十行填入自己的TG API，在第61行填入管理员的tg id
 
 安装python
 
